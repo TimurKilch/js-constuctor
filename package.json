@@ -1,0 +1,20 @@
+{
+  "name": "js-constuctor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve" : " parcel ./src/index.html -p 4200 --open",
+    "build" : "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Timur <KilchukovTimur2000@yandex.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
